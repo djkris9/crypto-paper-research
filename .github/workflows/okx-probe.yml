@@ -1,0 +1,40 @@
+name: OKX public data probe
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Check independent OKX public futures data
+        run: |
+          python - <<'PY'
+          import json, urllib.request, urllib.parse
+          def get(path, params):
+              url="https://www.okx.com"+path+"?"+urllib.parse.urlencode(params)
+              with urllib.request.urlopen(url, timeout=20) as response:
+                  payload=json.load(response)
+              if payload.get("code")!="0" or not isinstance(payload.get("data"),list) or not payload["data"]:
+                  raise RuntimeError("Invalid public response: "+path)
+              print(json.dumps({"path":path,"instrument":params.get("instId"),"records":len(payload["data"])}))
+              return payload["data"]
+          get("/api/v5/public/time",{})
+          for coin in ["BTC","ETH","SOL"]:
+              symbol=coin+"-USDT-SWAP"
+              get("/api/v5/public/instruments",{"instType":"SWAP","instId":symbol})
+              for bar in ["4H","15m"]:
+                  rows=get("/api/v5/market/candles",{"instId":symbol,"bar":bar,"limit":"202"})
+                  if sum(row[-1]=="1" for row in rows)<201:raise RuntimeError("Insufficient completed candles")
+              get("/api/v5/public/mark-price",{"instType":"SWAP","instId":symbol})
+              get("/api/v5/market/books",{"instId":symbol,"sz":"1"})
+              rates=get("/api/v5/public/funding-rate-history",{"instId":symbol,"limit":"2"})
+              stamp=int(rates[0]["fundingTime"])
+              get("/api/v5/market/history-mark-price-candles",{"instId":symbol,"bar":"1m","after":str(stamp),"limit":"2"})
+          print("OKX public data probe passed; no trading or ledger created.")
+          PY
