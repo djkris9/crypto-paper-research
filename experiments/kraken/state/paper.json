@@ -1,14 +1,129 @@
 {
-  "events": [],
+  "events": [
+    {
+      "id": 1,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 765.4080662903949,
+          "channel_high": 86990.0,
+          "channel_low": 84520.0,
+          "ema20": 85519.05562310266,
+          "ema50": 84912.534464329,
+          "previous_channel_high": 86990.0,
+          "previous_channel_low": 84501.0,
+          "previous_price": 85720.0,
+          "price": 85621.0,
+          "rsi": 52.85978035805054,
+          "volume_ratio": 1.1890396916753887
+        },
+        "reason": "setup older than five minutes; wait for next close",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1791316799999
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-10-06T23:21:31.643639+00:00"
+    },
+    {
+      "id": 2,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 25.473885049826638,
+          "channel_high": 2739.1,
+          "channel_low": 2676.5,
+          "ema20": 2702.934854526225,
+          "ema50": 2695.0610939499243,
+          "previous_channel_high": 2739.1,
+          "previous_channel_low": 2671.7,
+          "previous_price": 2701.8,
+          "price": 2692.2,
+          "rsi": 46.67706307588139,
+          "volume_ratio": 1.9139152873380803
+        },
+        "reason": "setup older than five minutes; wait for next close",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1791316799999
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-06T23:21:31.644637+00:00"
+    },
+    {
+      "id": 3,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 1.5892980842560258,
+          "channel_high": 122.28,
+          "channel_low": 118.67,
+          "ema20": 120.37857742684369,
+          "ema50": 119.62952148513698,
+          "previous_channel_high": 122.28,
+          "previous_channel_low": 118.67,
+          "previous_price": 120.5,
+          "price": 120.81,
+          "rsi": 53.43750311232269,
+          "volume_ratio": 0.9373770404349445
+        },
+        "reason": "setup older than five minutes; wait for next close",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1791316799999
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-06T23:21:31.645443+00:00"
+    }
+  ],
   "experiment": "kraken-slow-breakout-4h-v1",
   "funding_payments": [],
   "schema": 1,
   "state": {
+    "daily_equity:2026-10-06": 10000.0,
+    "equity_peak": 10000.0,
     "experiment": "kraken-slow-breakout-4h-v1",
+    "last_slow_bar:BTCUSD": 1791316799999,
+    "last_slow_bar:ETHUSD": 1791316799999,
+    "last_slow_bar:SOLUSD": 1791316799999,
     "mode": "paper",
     "paper_cash": 10000.0,
     "paper_funding_pending": [],
     "paper_positions": [],
+    "runtime_configuration": {
+      "accept_partial_calendar": false,
+      "ai_calls_per_day": 1,
+      "ai_enabled": false,
+      "ai_min_confidence": 0.65,
+      "ai_model": "",
+      "atr_stop": 3.0,
+      "blackout_minutes": 30,
+      "calendar": "file",
+      "calendar_cache": "data/calendar-cache.sqlite",
+      "calendar_file": "",
+      "daily_loss": 0.02,
+      "entry_trigger": "continuous",
+      "higher_trend_filter": false,
+      "max_drawdown": 0.05,
+      "max_entry_deviation": 0.001,
+      "max_notional": 1000.0,
+      "max_positions": 2,
+      "max_spread": 0.0005,
+      "max_total_risk": 0.01,
+      "mode": "paper",
+      "paper_balance": 10000.0,
+      "paper_funding": true,
+      "poll_seconds": 60,
+      "quote_max_age_ms": 10000,
+      "reward_risk": 3.0,
+      "risk_fraction": 0.0025,
+      "selective_entries": false,
+      "symbols": [
+        "BTCUSD",
+        "ETHUSD",
+        "SOLUSD"
+      ]
+    },
     "strategy_spec_sha256": "343d4575579af3f3c963d1936fb490e354fc22aeab47deaa9e408c5292dc914d"
   },
   "strategy_spec_sha256": "343d4575579af3f3c963d1936fb490e354fc22aeab47deaa9e408c5292dc914d"
