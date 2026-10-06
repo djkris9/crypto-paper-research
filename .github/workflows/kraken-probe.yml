@@ -1,0 +1,36 @@
+name: Kraken public futures probe
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Check independent Kraken public futures data
+        run: |
+          python - <<'PY'
+          import json,urllib.request,urllib.parse,time
+          def get(path,params={}):
+              url="https://futures.kraken.com"+path+"?"+urllib.parse.urlencode(params)
+              with urllib.request.urlopen(url,timeout=20) as r:d=json.load(r)
+              if d.get("result","success")!="success":raise RuntimeError("Public endpoint failed: "+path)
+              print(json.dumps({"path":path,"success":True}))
+              return d
+          instruments=get("/derivatives/api/v3/instruments")
+          tickers=get("/derivatives/api/v3/tickers")
+          for symbol in ["PF_XBTUSD","PF_ETHUSD","PF_SOLUSD"]:
+              if not any(i["symbol"]==symbol and i["tradeable"] for i in instruments["instruments"]):raise RuntimeError("Instrument unavailable")
+              if not any(i["symbol"]==symbol and not i["suspended"] for i in tickers["tickers"]):raise RuntimeError("Quotes unavailable")
+              for interval in ["4h","15m"]:
+                  d=get("/api/charts/v1/trade/"+symbol+"/"+interval,{"count":202})
+                  if len(d["candles"])<202:raise RuntimeError("Insufficient history")
+              d=get("/derivatives/api/v3/historical-funding-rates",{"symbol":symbol})
+              if not d["rates"]:raise RuntimeError("Funding history missing")
+          print("Kraken public probe passed; no orders or ledger.")
+          PY
