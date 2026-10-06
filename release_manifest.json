@@ -1,0 +1,40 @@
+{
+  "created_date": "2026-10-06",
+  "paper_only": true,
+  "ai_enabled": false,
+  "requires_public_repository": true,
+  "workflow_enabled_by_default": false,
+  "needs_hosted_connectivity_preflight": true,
+  "files": {
+    ".github/workflows/paper.yml": "0480053d7df0bf90f8b0edc98a71414fe26d70bc4c3d40573718987ade4ec6c9",
+    ".github/workflows/preflight.yml": "a2f93815cd7149eecda017e09a01d53ae76523128ba0ac01f2dec2684a3f689d",
+    ".gitignore": "0914682765fa854c42ecd8865a11a337dade5c4dc73ce39950697f042a395f73",
+    "bot/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bot/binance.py": "e3c3ffa35385bb88abbf2e957c8630a7bb97cb33e13b4a1d424613ec3265ad45",
+    "bot/config.py": "3a06101bb3e14501a37061a4e704d8a7e3e90f30e0a13951aedf22b17ea2f3c9",
+    "bot/execution.py": "20c65c9c3e7d0222b553b38b98fa456569f7ae84c752cf5020c3f61c836d0b9c",
+    "bot/funding.py": "2c1c83f0d0ab2ee2ad420adec8778e954925bd7d58cf37efa07d5cd2165effe2",
+    "bot/indicators.py": "a0518f76256eb3f1d69119c1dd5c3d31ead52753cc172d50dd07c591ccf5a384",
+    "bot/lock.py": "859dac3b347d03b6e39dd1ae1e234d076cdc2e7d2b1982701d673d79fe69d651",
+    "bot/slow_paper.py": "a7badf08a9017db77bce2159f7456d2192b5e6a6087f094ba96698b873f1b4a5",
+    "bot/slow_state.py": "3a454b04c366e1e7ae9d653bc5fac42290f9ef0c3249a2a4a6af09c5950bdfcb",
+    "bot/store.py": "15b988423d469c2d44ecb19ec15ab443a52ffa441f372a65edd24e8a575975b8",
+    "bot/strategy.py": "d47acaa16cc4a91b79561b7a156e7d04fde949841de870145389904366b7e2ff",
+    "pytest.ini": "e621dabb0551d82e234c399c39d035481d1b20a1ccbeb7a3ade640fc9dd1a151",
+    "README.md": "d8088d12d9e590de94f240e2b624d29fdcf18e55cf5c4a33188dc8798ee5e1da",
+    "requirements-dev.txt": "86083a12fab36857cf6ac4f6946656408ebed0f1ae64e5f52bdf85175525ef6a",
+    "requirements.txt": "34e523a6deb8fb5c7be54d2cdeb1ca523e64aed181b920669e6ec2bad1bb40f6",
+    "tests/fixtures/slow_reference.json": "6d1d91d6d9ba8ffc5f6e2d9225cdc7e35165eab6f73b23f07e2f45ec96ddc1f8",
+    "tests/test_slow_paper.py": "6b649a214c3b5936f7f702673d83b26eb5990490fba2aa2368ee88e5403386dd",
+    "tests/test_slow_state.py": "72936785d979e0323f291427b87e14497d1ce4372d8a2b03357bb9d31c7e8874",
+    "tools/run_cloud_once.py": "d24c74bd23a5032f7a13bc3cc2b612514ef1638cc7c901e16e197aabd52d93e2",
+    "tools/status.py": "1b4a5cce25d8aceb5784e5441d92a29ca9bb1c8f2752eb5108f4221379615c56",
+    "tools/verify_release.py": "69ccafc7ed993c209885455a1f193a6a33803a517b0c354c8adb24b607bb53de"
+  },
+  "initial_checkpoint_sha256": "bd5b969b57b2b6c03c623c5872c7d48e0dfe973e86ea0430691fc4ac63c298da",
+  "reference_strategy_sha256": "557b78fec5fd4614735e2edf01c80098fe1f81270b487c4269b7ab9639609040",
+  "action_pins": {
+    "checkout": "11d5960a326750d5838078e36cf38b85af677262",
+    "setup-python": "a26af69be951a213d495a4c3e4e4022e16d87065"
+  }
+}
