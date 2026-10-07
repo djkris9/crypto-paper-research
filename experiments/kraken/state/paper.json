@@ -224,6 +224,119 @@
       },
       "symbol": "SOLUSD",
       "time": "2026-10-07T09:03:01.587600+00:00"
+    },
+    {
+      "id": 10,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 798.5437984057468,
+          "channel_high": 86990.0,
+          "channel_low": 83412.0,
+          "ema20": 85119.56257646017,
+          "ema50": 84829.01987377185,
+          "previous_channel_high": 86990.0,
+          "previous_channel_low": 83412.0,
+          "previous_price": 84110.0,
+          "price": 83707.0,
+          "rsi": 35.65118312636126,
+          "volume_ratio": 2.251263442365144
+        },
+        "reason": "no new four-hour channel crossing",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1791374399999
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-10-07T12:00:50.488562+00:00"
+    },
+    {
+      "id": 11,
+      "kind": "ENTRY_QUOTE",
+      "payload": {
+        "quote": {
+          "ask": 2575.5,
+          "bid": 2575.4,
+          "book_time": 1791374451230,
+          "mark": 2575.49419167016,
+          "mark_time": 1791374451111
+        },
+        "reference": 2577.5,
+        "rejection": null
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-07T12:00:51.380681+00:00"
+    },
+    {
+      "id": 12,
+      "kind": "ENTRY",
+      "payload": {
+        "trade": {
+          "entry": 2574.88492,
+          "entry_fee": 0.31284851778,
+          "entry_time_ms": 1791374451402,
+          "opened_after": 1791374399999,
+          "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+          "quantity": "0.243",
+          "risk": 24.996158511119987,
+          "side": "SHORT",
+          "stop": "2672.6",
+          "symbol": "ETHUSD",
+          "take": "2281.7"
+        }
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-07T12:00:51.383745+00:00"
+    },
+    {
+      "id": 13,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 32.56722712795527,
+          "channel_high": 2739.1,
+          "channel_low": 2585.4,
+          "ema20": 2675.846111226025,
+          "ema50": 2684.456871466203,
+          "previous_channel_high": 2739.1,
+          "previous_channel_low": 2585.4,
+          "previous_price": 2615.2,
+          "price": 2577.5,
+          "rsi": 26.064454530045424,
+          "volume_ratio": 3.140731985097654
+        },
+        "reason": "four-hour channel breakout",
+        "side": "SHORT",
+        "signal_close_ms": 1791374399999
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-07T12:00:51.384258+00:00"
+    },
+    {
+      "id": 14,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 1.6986065997285131,
+          "channel_high": 122.28,
+          "channel_low": 116.87,
+          "ema20": 119.79978027634426,
+          "ema50": 119.49139621812434,
+          "previous_channel_high": 122.28,
+          "previous_channel_low": 116.87,
+          "previous_price": 118.64,
+          "price": 117.34,
+          "rsi": 36.9405016162663,
+          "volume_ratio": 1.261676646693089
+        },
+        "reason": "no new four-hour channel crossing",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1791374399999
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-07T12:00:51.385140+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -234,13 +347,27 @@
     "daily_equity:2026-10-07": 10000.0,
     "equity_peak": 10000.0,
     "experiment": "kraken-slow-breakout-4h-v1",
-    "last_slow_bar:BTCUSD": 1791359999999,
-    "last_slow_bar:ETHUSD": 1791359999999,
-    "last_slow_bar:SOLUSD": 1791359999999,
+    "last_slow_bar:BTCUSD": 1791374399999,
+    "last_slow_bar:ETHUSD": 1791374399999,
+    "last_slow_bar:SOLUSD": 1791374399999,
     "mode": "paper",
-    "paper_cash": 10000.0,
+    "paper_cash": 9999.68715148222,
     "paper_funding_pending": [],
-    "paper_positions": [],
+    "paper_positions": [
+      {
+        "entry": 2574.88492,
+        "entry_fee": 0.31284851778,
+        "entry_time_ms": 1791374451402,
+        "opened_after": 1791374399999,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": "0.243",
+        "risk": 24.996158511119987,
+        "side": "SHORT",
+        "stop": "2672.6",
+        "symbol": "ETHUSD",
+        "take": "2281.7"
+      }
+    ],
     "runtime_configuration": {
       "accept_partial_calendar": false,
       "ai_calls_per_day": 1,
