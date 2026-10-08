@@ -14905,6 +14905,38 @@
       },
       "symbol": "SOLUSD",
       "time": "2026-10-08T15:50:24.925753+00:00"
+    },
+    {
+      "id": 915,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.00033127665025855634,
+        "cumulative_hour_amount": 0.003725828672088048,
+        "currency": "USD",
+        "held_ms": 3318898,
+        "hour_start_ms": 1791471600000,
+        "hourly_usd_per_unit": 0.016631261885334175,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-08T15:55:19.533362+00:00"
+    },
+    {
+      "id": 916,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": -0.00014233504383308814,
+        "cumulative_hour_amount": -0.0015989003475745393,
+        "currency": "USD",
+        "held_ms": 3319940,
+        "hour_start_ms": 1791471600000,
+        "hourly_usd_per_unit": -0.000375276774499963,
+        "position_id": "12f6feff508f4535acb49bea1f85312b",
+        "quantity": 4.62
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-08T15:55:20.392578+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -15147,7 +15179,7 @@
       -0.000375276774499963,
       1.0,
       4.62,
-      -0.0014565653037414512
+      -0.0015989003475745393
     ],
     [
       "636c70e51f5a49bf99cb7401e71c4943",
@@ -15427,7 +15459,7 @@
       0.016631261885334175,
       1.0,
       0.243,
-      0.0033945520218294917
+      0.003725828672088048
     ]
   ],
   "schema": 1,
@@ -15435,13 +15467,13 @@
     "daily_equity:2026-10-06": 10000.0,
     "daily_equity:2026-10-07": 10000.0,
     "daily_equity:2026-10-08": 10002.919641572918,
-    "equity_peak": 10066.734082780904,
+    "equity_peak": 10068.362908907973,
     "experiment": "kraken-slow-breakout-4h-v1",
     "last_slow_bar:BTCUSD": 1791460799999,
     "last_slow_bar:ETHUSD": 1791460799999,
     "last_slow_bar:SOLUSD": 1791460799999,
     "mode": "paper",
-    "paper_cash": 9999.683292767959,
+    "paper_cash": 9999.683481709564,
     "paper_funding_pending": [],
     "paper_positions": [
       {
