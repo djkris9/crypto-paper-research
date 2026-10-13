@@ -60491,31 +60491,6 @@
       "time": "2026-10-12T04:00:55.508605+00:00"
     },
     {
-      "id": 3880,
-      "kind": "DECISION",
-      "payload": {
-        "experiment": "kraken-slow-breakout-4h-v1",
-        "features": {
-          "atr": 1.5341951963777494,
-          "channel_high": 112.68,
-          "channel_low": 105.62,
-          "ema20": 111.17654775315052,
-          "ema50": 113.66011792932943,
-          "previous_channel_high": 113.29,
-          "previous_channel_low": 105.62,
-          "previous_price": 111.25,
-          "price": 111.59,
-          "rsi": 48.691760904905586,
-          "volume_ratio": 0.3168260018134019
-        },
-        "reason": "already holding symbol",
-        "side": "NO_TRADE",
-        "signal_close_ms": 1791777599999
-      },
-      "symbol": "SOLUSD",
-      "time": "2026-10-12T04:00:55.703721+00:00"
-    },
-    {
       "id": 3881,
       "kind": "FUNDING",
       "payload": {
@@ -62722,31 +62697,6 @@
       },
       "symbol": "SOLUSD",
       "time": "2026-10-12T08:01:44.814443+00:00"
-    },
-    {
-      "id": 4019,
-      "kind": "DECISION",
-      "payload": {
-        "experiment": "kraken-slow-breakout-4h-v1",
-        "features": {
-          "atr": 617.8507674153471,
-          "channel_high": 84155.0,
-          "channel_low": 81551.0,
-          "ema20": 83260.3465962086,
-          "ema50": 83548.60513335296,
-          "previous_channel_high": 84155.0,
-          "previous_channel_low": 80320.0,
-          "previous_price": 83517.0,
-          "price": 83920.0,
-          "rsi": 57.95866819033922,
-          "volume_ratio": 0.9298888286941907
-        },
-        "reason": "invalid inputs, volume or cost headroom",
-        "side": "NO_TRADE",
-        "signal_close_ms": 1791791999999
-      },
-      "symbol": "BTCUSD",
-      "time": "2026-10-12T08:01:44.981063+00:00"
     },
     {
       "id": 4020,
@@ -84045,6 +83995,56 @@
       },
       "symbol": "SOLUSD",
       "time": "2026-10-13T19:00:56.551145+00:00"
+    },
+    {
+      "id": 5498,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.00046962221529676587,
+        "cumulative_hour_amount": 0.0005679162702352425,
+        "currency": "USD",
+        "held_ms": 319595,
+        "hour_start_ms": 1791918000000,
+        "hourly_usd_per_unit": 0.026325738431,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-13T19:05:19.963885+00:00"
+    },
+    {
+      "id": 5499,
+      "kind": "DATA_ERROR",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-13T19:05:20.078234+00:00"
+    },
+    {
+      "id": 5500,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.001725584155066262,
+        "cumulative_hour_amount": 0.002091733145283532,
+        "currency": "USD",
+        "held_ms": 320242,
+        "hour_start_ms": 1791918000000,
+        "hourly_usd_per_unit": 0.0050896569825,
+        "position_id": "12f6feff508f4535acb49bea1f85312b",
+        "quantity": 4.62
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-13T19:05:21.065841+00:00"
+    },
+    {
+      "id": 5502,
+      "kind": "CYCLE_ERROR",
+      "payload": {
+        "error_type": "RuntimeError"
+      },
+      "symbol": "",
+      "time": "2026-10-13T19:05:21.236839+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -85527,7 +85527,7 @@
       0.0050896569825,
       1.0,
       4.62,
-      0.0003661489902172699
+      0.002091733145283532
     ],
     [
       "636c70e51f5a49bf99cb7401e71c4943",
@@ -87047,7 +87047,7 @@
       0.026325738431,
       1.0,
       0.243,
-      9.829405493847664e-05
+      0.0005679162702352425
     ]
   ],
   "schema": 1,
@@ -87066,7 +87066,7 @@
     "last_slow_bar:ETHUSD": 1791907199999,
     "last_slow_bar:SOLUSD": 1791907199999,
     "mode": "paper",
-    "paper_cash": 10001.554935929964,
+    "paper_cash": 10001.557131136335,
     "paper_funding_pending": [],
     "paper_positions": [
       {
