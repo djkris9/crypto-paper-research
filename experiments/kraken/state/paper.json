@@ -81551,6 +81551,97 @@
       },
       "symbol": "",
       "time": "2026-10-13T12:25:23.408563+00:00"
+    },
+    {
+      "id": 5058,
+      "kind": "DATA_ERROR",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-10-13T12:30:43.141359+00:00"
+    },
+    {
+      "id": 5059,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.00019719091433760072,
+        "cumulative_hour_amount": 0.0012726138224896542,
+        "currency": "USD",
+        "held_ms": 1799999,
+        "hour_start_ms": 1791892800000,
+        "hourly_usd_per_unit": 0.010474193658417499,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-13T12:30:43.817077+00:00"
+    },
+    {
+      "id": 5060,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 3.060213738598845e-05,
+        "cumulative_hour_amount": 0.0013032159598756427,
+        "currency": "USD",
+        "held_ms": 1843283,
+        "hour_start_ms": 1791892800000,
+        "hourly_usd_per_unit": 0.010474193658417499,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-13T12:30:43.818856+00:00"
+    },
+    {
+      "id": 5061,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.0008219445026916008,
+        "cumulative_hour_amount": 0.005325771356732825,
+        "currency": "USD",
+        "held_ms": 1799999,
+        "hour_start_ms": 1791892800000,
+        "hourly_usd_per_unit": 0.002305530006708369,
+        "position_id": "12f6feff508f4535acb49bea1f85312b",
+        "quantity": 4.62
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-13T12:30:45.311516+00:00"
+    },
+    {
+      "id": 5062,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.00013066195530368578,
+        "cumulative_hour_amount": 0.0054564333120365105,
+        "currency": "USD",
+        "held_ms": 1844160,
+        "hour_start_ms": 1791892800000,
+        "hourly_usd_per_unit": 0.002305530006708369,
+        "position_id": "12f6feff508f4535acb49bea1f85312b",
+        "quantity": 4.62
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-13T12:30:45.313538+00:00"
+    },
+    {
+      "id": 5063,
+      "kind": "DATA_ERROR",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-13T12:30:45.481734+00:00"
+    },
+    {
+      "id": 5065,
+      "kind": "CYCLE_ERROR",
+      "payload": {
+        "error_type": "RuntimeError"
+      },
+      "symbol": "",
+      "time": "2026-10-13T12:30:45.483343+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -82963,7 +83054,7 @@
       0.002305530006708369,
       1.0,
       4.62,
-      0.004503826854041224
+      0.0054564333120365105
     ],
     [
       "636c70e51f5a49bf99cb7401e71c4943",
@@ -84413,7 +84504,7 @@
       0.010474193658417499,
       1.0,
       0.243,
-      0.0010754229081520535
+      0.0013032159598756427
     ]
   ],
   "schema": 1,
@@ -84432,14 +84523,14 @@
     "last_slow_bar:ETHUSD": 1791892799999,
     "last_slow_bar:SOLUSD": 1791892799999,
     "mode": "paper",
-    "paper_cash": 10001.51719679299,
+    "paper_cash": 10001.5183771925,
     "paper_funding_pending": [],
     "paper_positions": [
       {
         "entry": 2574.88492,
         "entry_fee": 0.31284851778,
         "entry_time_ms": 1791374451402,
-        "opened_after": 1791893699999,
+        "opened_after": 1791894599999,
         "position_id": "636c70e51f5a49bf99cb7401e71c4943",
         "quantity": "0.243",
         "risk": 24.996158511119987,
@@ -84452,7 +84543,7 @@
         "entry": 116.766642,
         "entry_fee": 0.26973094302000006,
         "entry_time_ms": 1791388849455,
-        "opened_after": 1791893699999,
+        "opened_after": 1791894599999,
         "position_id": "12f6feff508f4535acb49bea1f85312b",
         "quantity": "4.62",
         "risk": 24.979837732079968,
