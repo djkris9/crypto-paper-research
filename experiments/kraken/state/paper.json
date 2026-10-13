@@ -82482,6 +82482,56 @@
       },
       "symbol": "SOLUSD",
       "time": "2026-10-13T13:45:34.654439+00:00"
+    },
+    {
+      "id": 5140,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": -0.0004043693672084476,
+        "cumulative_hour_amount": -0.004132650950360029,
+        "currency": "USD",
+        "held_ms": 3030084,
+        "hour_start_ms": 1791896400000,
+        "hourly_usd_per_unit": -0.0202055317687075,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-13T13:50:30.734771+00:00"
+    },
+    {
+      "id": 5141,
+      "kind": "DATA_ERROR",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-13T13:50:31.000071+00:00"
+    },
+    {
+      "id": 5142,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": -0.0006131505874580169,
+        "cumulative_hour_amount": -0.006258907299529771,
+        "currency": "USD",
+        "held_ms": 3031262,
+        "hour_start_ms": 1791896400000,
+        "hourly_usd_per_unit": -0.001608924145458298,
+        "position_id": "12f6feff508f4535acb49bea1f85312b",
+        "quantity": 4.62
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-13T13:50:31.744911+00:00"
+    },
+    {
+      "id": 5144,
+      "kind": "CYCLE_ERROR",
+      "payload": {
+        "error_type": "RuntimeError"
+      },
+      "symbol": "",
+      "time": "2026-10-13T13:50:31.961323+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -83904,7 +83954,7 @@
       -0.001608924145458298,
       1.0,
       4.62,
-      -0.005645756712071754
+      -0.006258907299529771
     ],
     [
       "636c70e51f5a49bf99cb7401e71c4943",
@@ -85364,7 +85414,7 @@
       -0.0202055317687075,
       1.0,
       0.243,
-      -0.0037282815831515817
+      -0.004132650950360029
     ]
   ],
   "schema": 1,
@@ -85383,7 +85433,7 @@
     "last_slow_bar:ETHUSD": 1791892799999,
     "last_slow_bar:SOLUSD": 1791892799999,
     "mode": "paper",
-    "paper_cash": 10001.515440282627,
+    "paper_cash": 10001.514422762672,
     "paper_funding_pending": [],
     "paper_positions": [
       {
