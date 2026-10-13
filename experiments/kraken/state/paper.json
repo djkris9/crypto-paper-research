@@ -47275,81 +47275,6 @@
       "time": "2026-10-11T04:00:54.378324+00:00"
     },
     {
-      "id": 3033,
-      "kind": "DECISION",
-      "payload": {
-        "experiment": "kraken-slow-breakout-4h-v1",
-        "features": {
-          "atr": 609.6802130094283,
-          "channel_high": 83658.0,
-          "channel_low": 80320.0,
-          "ema20": 82956.92471374,
-          "ema50": 83554.60754950876,
-          "previous_channel_high": 83738.0,
-          "previous_channel_low": 80320.0,
-          "previous_price": 82914.0,
-          "price": 82736.0,
-          "rsi": 44.768170288744464,
-          "volume_ratio": 0.20114939110313532
-        },
-        "reason": "invalid inputs, volume or cost headroom",
-        "side": "NO_TRADE",
-        "signal_close_ms": 1791691199999
-      },
-      "symbol": "BTCUSD",
-      "time": "2026-10-11T04:00:54.538904+00:00"
-    },
-    {
-      "id": 3034,
-      "kind": "DECISION",
-      "payload": {
-        "experiment": "kraken-slow-breakout-4h-v1",
-        "features": {
-          "atr": 25.702112040876177,
-          "channel_high": 2586.0,
-          "channel_low": 2405.1,
-          "ema20": 2520.122402907757,
-          "ema50": 2579.1790133034087,
-          "previous_channel_high": 2586.0,
-          "previous_channel_low": 2405.1,
-          "previous_price": 2503.9,
-          "price": 2496.9,
-          "rsi": 37.78331143417053,
-          "volume_ratio": 0.283698581281083
-        },
-        "reason": "already holding symbol",
-        "side": "NO_TRADE",
-        "signal_close_ms": 1791691199999
-      },
-      "symbol": "ETHUSD",
-      "time": "2026-10-11T04:00:54.539945+00:00"
-    },
-    {
-      "id": 3035,
-      "kind": "DECISION",
-      "payload": {
-        "experiment": "kraken-slow-breakout-4h-v1",
-        "features": {
-          "atr": 1.5341117375309188,
-          "channel_high": 117.22,
-          "channel_low": 105.62,
-          "ema20": 111.37598602984487,
-          "ema50": 114.41984899658034,
-          "previous_channel_high": 117.48,
-          "previous_channel_low": 105.62,
-          "previous_price": 110.02,
-          "price": 109.07,
-          "rsi": 32.818453148708315,
-          "volume_ratio": 0.6443337791485513
-        },
-        "reason": "already holding symbol",
-        "side": "NO_TRADE",
-        "signal_close_ms": 1791691199999
-      },
-      "symbol": "SOLUSD",
-      "time": "2026-10-11T04:00:54.540842+00:00"
-    },
-    {
       "id": 3036,
       "kind": "FUNDING",
       "payload": {
@@ -49556,31 +49481,6 @@
       },
       "symbol": "SOLUSD",
       "time": "2026-10-11T08:00:52.660606+00:00"
-    },
-    {
-      "id": 3174,
-      "kind": "DECISION",
-      "payload": {
-        "experiment": "kraken-slow-breakout-4h-v1",
-        "features": {
-          "atr": 597.7030572619964,
-          "channel_high": 83589.0,
-          "channel_low": 80320.0,
-          "ema20": 82956.07474108103,
-          "ema50": 83530.83799312366,
-          "previous_channel_high": 83658.0,
-          "previous_channel_low": 80320.0,
-          "previous_price": 82736.0,
-          "price": 82948.0,
-          "rsi": 47.59987120283344,
-          "volume_ratio": 0.29622755467885087
-        },
-        "reason": "invalid inputs, volume or cost headroom",
-        "side": "NO_TRADE",
-        "signal_close_ms": 1791705599999
-      },
-      "symbol": "BTCUSD",
-      "time": "2026-10-11T08:00:52.830150+00:00"
     },
     {
       "id": 3175,
@@ -83989,6 +83889,74 @@
       },
       "symbol": "",
       "time": "2026-10-13T18:15:30.304104+00:00"
+    },
+    {
+      "id": 5448,
+      "kind": "DATA_ERROR",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-10-13T18:20:25.568237+00:00"
+    },
+    {
+      "id": 5449,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.0004254496614537603,
+        "cumulative_hour_amount": 0.0017583455620448392,
+        "currency": "USD",
+        "held_ms": 1225685,
+        "hour_start_ms": 1791914400000,
+        "hourly_usd_per_unit": 0.021253065740500832,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-13T18:20:26.273214+00:00"
+    },
+    {
+      "id": 5450,
+      "kind": "DATA_ERROR",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-13T18:20:26.391700+00:00"
+    },
+    {
+      "id": 5451,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.000879151987804565,
+        "cumulative_hour_amount": 0.0036340589305944074,
+        "currency": "USD",
+        "held_ms": 1226504,
+        "hour_start_ms": 1791914400000,
+        "hourly_usd_per_unit": 0.002308785158166631,
+        "position_id": "12f6feff508f4535acb49bea1f85312b",
+        "quantity": 4.62
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-13T18:20:26.813391+00:00"
+    },
+    {
+      "id": 5452,
+      "kind": "DATA_ERROR",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-13T18:20:26.948038+00:00"
+    },
+    {
+      "id": 5454,
+      "kind": "CYCLE_ERROR",
+      "payload": {
+        "error_type": "RuntimeError"
+      },
+      "symbol": "",
+      "time": "2026-10-13T18:20:26.949592+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -85461,7 +85429,7 @@
       0.002308785158166631,
       1.0,
       4.62,
-      0.0027549069427898424
+      0.0036340589305944074
     ],
     [
       "636c70e51f5a49bf99cb7401e71c4943",
@@ -86971,7 +86939,7 @@
       0.021253065740500832,
       1.0,
       0.243,
-      0.0013328959005910789
+      0.0017583455620448392
     ]
   ],
   "schema": 1,
@@ -86990,7 +86958,7 @@
     "last_slow_bar:ETHUSD": 1791907199999,
     "last_slow_bar:SOLUSD": 1791907199999,
     "mode": "paper",
-    "paper_cash": 10001.542728207354,
+    "paper_cash": 10001.544032809004,
     "paper_funding_pending": [],
     "paper_positions": [
       {
