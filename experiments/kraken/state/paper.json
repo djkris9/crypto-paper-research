@@ -81367,6 +81367,97 @@
       },
       "symbol": "SOLUSD",
       "time": "2026-10-13T12:10:30.536758+00:00"
+    },
+    {
+      "id": 5041,
+      "kind": "DATA_ERROR",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-10-13T12:15:28.407714+00:00"
+    },
+    {
+      "id": 5042,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.00019278484003325074,
+        "cumulative_hour_amount": 0.0006363065577407911,
+        "currency": "USD",
+        "held_ms": 899999,
+        "hour_start_ms": 1791892800000,
+        "hourly_usd_per_unit": 0.010474193658417499,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-13T12:15:28.861657+00:00"
+    },
+    {
+      "id": 5043,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 2.0095290428841163e-05,
+        "cumulative_hour_amount": 0.0006564018481696322,
+        "currency": "USD",
+        "held_ms": 928422,
+        "hour_start_ms": 1791892800000,
+        "hourly_usd_per_unit": 0.010474193658417499,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-13T12:15:28.863543+00:00"
+    },
+    {
+      "id": 5044,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.0008014047664148367,
+        "cumulative_hour_amount": 0.002662884198984658,
+        "currency": "USD",
+        "held_ms": 899999,
+        "hour_start_ms": 1791892800000,
+        "hourly_usd_per_unit": 0.002305530006708369,
+        "position_id": "12f6feff508f4535acb49bea1f85312b",
+        "quantity": 4.62
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-13T12:15:29.369238+00:00"
+    },
+    {
+      "id": 5045,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 8.578934793211992e-05,
+        "cumulative_hour_amount": 0.002748673546916778,
+        "currency": "USD",
+        "held_ms": 928994,
+        "hour_start_ms": 1791892800000,
+        "hourly_usd_per_unit": 0.002305530006708369,
+        "position_id": "12f6feff508f4535acb49bea1f85312b",
+        "quantity": 4.62
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-13T12:15:29.371174+00:00"
+    },
+    {
+      "id": 5046,
+      "kind": "DATA_ERROR",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-13T12:15:29.476988+00:00"
+    },
+    {
+      "id": 5048,
+      "kind": "CYCLE_ERROR",
+      "payload": {
+        "error_type": "RuntimeError"
+      },
+      "symbol": "",
+      "time": "2026-10-13T12:15:29.478794+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -82779,7 +82870,7 @@
       0.002305530006708369,
       1.0,
       4.62,
-      0.0018614794325698214
+      0.002748673546916778
     ],
     [
       "636c70e51f5a49bf99cb7401e71c4943",
@@ -84229,7 +84320,7 @@
       0.010474193658417499,
       1.0,
       0.243,
-      0.0004435217177075403
+      0.0006564018481696322
     ]
   ],
   "schema": 1,
@@ -84248,14 +84339,14 @@
     "last_slow_bar:ETHUSD": 1791892799999,
     "last_slow_bar:SOLUSD": 1791892799999,
     "mode": "paper",
-    "paper_cash": 10001.513922544375,
+    "paper_cash": 10001.515022618622,
     "paper_funding_pending": [],
     "paper_positions": [
       {
         "entry": 2574.88492,
         "entry_fee": 0.31284851778,
         "entry_time_ms": 1791374451402,
-        "opened_after": 1791892799999,
+        "opened_after": 1791893699999,
         "position_id": "636c70e51f5a49bf99cb7401e71c4943",
         "quantity": "0.243",
         "risk": 24.996158511119987,
@@ -84268,7 +84359,7 @@
         "entry": 116.766642,
         "entry_fee": 0.26973094302000006,
         "entry_time_ms": 1791388849455,
-        "opened_after": 1791892799999,
+        "opened_after": 1791893699999,
         "position_id": "12f6feff508f4535acb49bea1f85312b",
         "quantity": "4.62",
         "risk": 24.979837732079968,
