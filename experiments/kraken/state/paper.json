@@ -83043,6 +83043,83 @@
       },
       "symbol": "SOLUSD",
       "time": "2026-10-13T14:40:31.960822+00:00"
+    },
+    {
+      "id": 5191,
+      "kind": "DATA_ERROR",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-10-13T14:45:27.847252+00:00"
+    },
+    {
+      "id": 5192,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.0003703411675574065,
+        "cumulative_hour_amount": 0.003716169151359778,
+        "currency": "USD",
+        "held_ms": 2699999,
+        "hour_start_ms": 1791900000000,
+        "hourly_usd_per_unit": 0.020390510440160402,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-13T14:45:28.469354+00:00"
+    },
+    {
+      "id": 5193,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 3.854769924808597e-05,
+        "cumulative_hour_amount": 0.003754716850607864,
+        "currency": "USD",
+        "held_ms": 2728006,
+        "hour_start_ms": 1791900000000,
+        "hourly_usd_per_unit": 0.020390510440160402,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-13T14:45:28.471177+00:00"
+    },
+    {
+      "id": 5194,
+      "kind": "DATA_ERROR",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-13T14:45:28.597267+00:00"
+    },
+    {
+      "id": 5195,
+      "kind": "DATA_ERROR",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-13T14:45:28.718480+00:00"
+    },
+    {
+      "id": 5196,
+      "kind": "VALUATION_UNAVAILABLE",
+      "payload": {
+        "reason": "A held symbol lacks a fresh mark"
+      },
+      "symbol": "",
+      "time": "2026-10-13T14:45:28.719344+00:00"
+    },
+    {
+      "id": 5197,
+      "kind": "CYCLE_ERROR",
+      "payload": {
+        "error_type": "RuntimeError"
+      },
+      "symbol": "",
+      "time": "2026-10-13T14:45:28.720043+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -85945,7 +86022,7 @@
       0.020390510440160402,
       1.0,
       0.243,
-      0.0033458279838023716
+      0.003754716850607864
     ]
   ],
   "schema": 1,
@@ -85964,14 +86041,14 @@
     "last_slow_bar:ETHUSD": 1791892799999,
     "last_slow_bar:SOLUSD": 1791892799999,
     "mode": "paper",
-    "paper_cash": 10001.511332971713,
+    "paper_cash": 10001.51174186058,
     "paper_funding_pending": [],
     "paper_positions": [
       {
         "entry": 2574.88492,
         "entry_fee": 0.31284851778,
         "entry_time_ms": 1791374451402,
-        "opened_after": 1791901799999,
+        "opened_after": 1791902699999,
         "position_id": "636c70e51f5a49bf99cb7401e71c4943",
         "quantity": "0.243",
         "risk": 24.996158511119987,
