@@ -193667,6 +193667,38 @@
       },
       "symbol": "ETHUSD",
       "time": "2026-10-22T03:20:25.860405+00:00"
+    },
+    {
+      "id": 12474,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": -0.0010453795108320866,
+        "cumulative_hour_amount": -0.005398611934296261,
+        "currency": "USD",
+        "held_ms": 1518370,
+        "hour_start_ms": 1792638000000,
+        "hourly_usd_per_unit": 1.3616928065963891,
+        "position_id": "3dd3439d785c4a3ebb03d6a35d341686",
+        "quantity": 0.0094
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-10-22T03:25:18.852657+00:00"
+    },
+    {
+      "id": 12475,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.00018662948982713426,
+        "cumulative_hour_amount": 0.000964883213858884,
+        "currency": "USD",
+        "held_ms": 1519301,
+        "hour_start_ms": 1792638000000,
+        "hourly_usd_per_unit": 0.009408646562625,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-22T03:25:19.896116+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -197069,7 +197101,7 @@
       1.3616928065963891,
       1.0,
       0.0094,
-      -0.004353232423464175
+      -0.005398611934296261
     ],
     [
       "636c70e51f5a49bf99cb7401e71c4943",
@@ -200589,7 +200621,7 @@
       0.009408646562625,
       1.0,
       0.243,
-      0.0007782537240317497
+      0.000964883213858884
     ]
   ],
   "schema": 1,
@@ -200617,7 +200649,7 @@
     "last_slow_bar:ETHUSD": 1792627199999,
     "last_slow_bar:SOLUSD": 1792627199999,
     "mode": "paper",
-    "paper_cash": 10050.554974021243,
+    "paper_cash": 10050.554115271221,
     "paper_funding_pending": [],
     "paper_positions": [
       {
