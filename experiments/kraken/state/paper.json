@@ -196612,6 +196612,35 @@
       },
       "symbol": "",
       "time": "2026-10-22T08:35:20.777523+00:00"
+    },
+    {
+      "id": 12662,
+      "kind": "TRADE_RECONCILED",
+      "payload": {
+        "entry_fee": 0.3969473736,
+        "exit_fee": 0.3849906589115117,
+        "funding": -0.11015367737428848,
+        "net_trade_pnl": -24.805521086862456,
+        "position_id": "3dd3439d785c4a3ebb03d6a35d341686"
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-10-22T08:40:26.100785+00:00"
+    },
+    {
+      "id": 12663,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.0005093261171965663,
+        "cumulative_hour_amount": 0.004021006562736644,
+        "currency": "USD",
+        "held_ms": 2426825,
+        "hour_start_ms": 1792656000000,
+        "hourly_usd_per_unit": 0.024546668011125,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-22T08:40:27.560596+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -203634,7 +203663,7 @@
       0.024546668011125,
       1.0,
       0.243,
-      0.003511680445540078
+      0.004021006562736644
     ]
   ],
   "schema": 1,
@@ -203662,26 +203691,8 @@
     "last_slow_bar:ETHUSD": 1792655999999,
     "last_slow_bar:SOLUSD": 1792655999999,
     "mode": "paper",
-    "paper_cash": 10026.180147889596,
-    "paper_funding_pending": [
-      {
-        "entry": 84456.88799999999,
-        "entry_fee": 0.3969473736,
-        "entry_time_ms": 1792598461308,
-        "exit_cash_delta": -24.298420035888167,
-        "exit_fee": 0.3849906589115117,
-        "exit_fill": 81912.90615138545,
-        "funding_end_ms": 1792657519044,
-        "opened_after": 1792656899999,
-        "position_id": "3dd3439d785c4a3ebb03d6a35d341686",
-        "quantity": "0.0094",
-        "risk": 25.161936694399923,
-        "side": "LONG",
-        "stop": "81949.0",
-        "symbol": "BTCUSD",
-        "take": "91980.0"
-      }
-    ],
+    "paper_cash": 10026.180657215713,
+    "paper_funding_pending": [],
     "paper_positions": [
       {
         "entry": 2574.88492,
