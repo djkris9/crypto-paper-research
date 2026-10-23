@@ -80203,33 +80203,6 @@
       "time": "2026-10-13T17:45:28.666663+00:00"
     },
     {
-      "id": 5410,
-      "kind": "VALUATION_UNAVAILABLE",
-      "payload": {
-        "reason": "A held symbol lacks a fresh mark"
-      },
-      "symbol": "",
-      "time": "2026-10-13T17:45:28.790097+00:00"
-    },
-    {
-      "id": 5411,
-      "kind": "CYCLE_ERROR",
-      "payload": {
-        "error_type": "RuntimeError"
-      },
-      "symbol": "",
-      "time": "2026-10-13T17:45:28.791022+00:00"
-    },
-    {
-      "id": 5412,
-      "kind": "DATA_ERROR",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "BTCUSD",
-      "time": "2026-10-13T17:47:07.175105+00:00"
-    },
-    {
       "id": 5413,
       "kind": "FUNDING",
       "payload": {
@@ -205601,6 +205574,129 @@
       },
       "symbol": "ETHUSD",
       "time": "2026-10-23T15:55:19.998749+00:00"
+    },
+    {
+      "id": 13224,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.0010194054901459214,
+        "cumulative_hour_amount": 0.013077307842124923,
+        "currency": "USD",
+        "held_ms": 3599999,
+        "hour_start_ms": 1792767600000,
+        "hourly_usd_per_unit": 0.0538160966037508,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-23T16:00:58.510353+00:00"
+    },
+    {
+      "id": 13225,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 3.632586521515324e-09,
+        "cumulative_hour_amount": 0.013077311474711445,
+        "currency": "USD",
+        "held_ms": 3600000,
+        "hour_start_ms": 1792767600000,
+        "hourly_usd_per_unit": 0.0538160966037508,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-23T16:00:58.512516+00:00"
+    },
+    {
+      "id": 13226,
+      "kind": "FUNDING",
+      "payload": {
+        "amount": 0.0001825078100839432,
+        "cumulative_hour_amount": 0.0001825078100839432,
+        "currency": "USD",
+        "held_ms": 58034,
+        "hour_start_ms": 1792771200000,
+        "hourly_usd_per_unit": 0.0465902644768758,
+        "position_id": "636c70e51f5a49bf99cb7401e71c4943",
+        "quantity": 0.243
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-23T16:00:58.512533+00:00"
+    },
+    {
+      "id": 13227,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 793.2895873892701,
+          "channel_high": 84846.0,
+          "channel_low": 80828.0,
+          "ema20": 82096.4715385658,
+          "ema50": 82253.66049470987,
+          "previous_channel_high": 84846.0,
+          "previous_channel_low": 80828.0,
+          "previous_price": 81627.0,
+          "price": 81592.0,
+          "rsi": 44.028189561543854,
+          "volume_ratio": 1.1757831301950004
+        },
+        "reason": "no new four-hour channel crossing",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1792771199999
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-10-23T16:00:59.201369+00:00"
+    },
+    {
+      "id": 13228,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 34.37716948274202,
+          "channel_high": 2524.3,
+          "channel_low": 2357.3,
+          "ema20": 2417.1176492026652,
+          "ema50": 2433.05327707916,
+          "previous_channel_high": 2524.3,
+          "previous_channel_low": 2357.3,
+          "previous_price": 2399.9,
+          "price": 2405.0,
+          "rsi": 46.22244608765208,
+          "volume_ratio": 0.8321997366675576
+        },
+        "reason": "already holding symbol",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1792771199999
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-10-23T16:00:59.201691+00:00"
+    },
+    {
+      "id": 13229,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 1.6403574118534263,
+          "channel_high": 109.13,
+          "channel_low": 102.88,
+          "ema20": 104.87379918896846,
+          "ema50": 105.53803620144053,
+          "previous_channel_high": 109.13,
+          "previous_channel_low": 102.88,
+          "previous_price": 104.42,
+          "price": 104.67,
+          "rsi": 48.231379099465926,
+          "volume_ratio": 1.6990622637637967
+        },
+        "reason": "no new four-hour channel crossing",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1792771199999
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-23T16:00:59.201920+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -212933,7 +213029,17 @@
       0.0538160966037508,
       1.0,
       0.243,
-      0.012057902351979002
+      0.013077311474711445
+    ],
+    [
+      "636c70e51f5a49bf99cb7401e71c4943",
+      1792771200000,
+      "Regular",
+      "ETHUSD",
+      0.0465902644768758,
+      1.0,
+      0.243,
+      0.0001825078100839432
     ]
   ],
   "schema": 1,
@@ -212958,18 +213064,18 @@
     "daily_equity:2026-10-23": 10072.537847737582,
     "equity_peak": 10143.483019712347,
     "experiment": "kraken-slow-breakout-4h-v1",
-    "last_slow_bar:BTCUSD": 1792756799999,
-    "last_slow_bar:ETHUSD": 1792756799999,
-    "last_slow_bar:SOLUSD": 1792756799999,
+    "last_slow_bar:BTCUSD": 1792771199999,
+    "last_slow_bar:ETHUSD": 1792771199999,
+    "last_slow_bar:SOLUSD": 1792771199999,
     "mode": "paper",
-    "paper_cash": 10026.39471089813,
+    "paper_cash": 10026.395912815064,
     "paper_funding_pending": [],
     "paper_positions": [
       {
         "entry": 2574.88492,
         "entry_fee": 0.31284851778,
         "entry_time_ms": 1791374451402,
-        "opened_after": 1792770299999,
+        "opened_after": 1792771199999,
         "position_id": "636c70e51f5a49bf99cb7401e71c4943",
         "quantity": "0.243",
         "risk": 24.996158511119987,
