@@ -282791,33 +282791,6 @@
       "time": "2026-10-30T02:20:25.871400+00:00"
     },
     {
-      "id": 18544,
-      "kind": "DATA_ERROR",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "ETHUSD",
-      "time": "2026-10-30T03:25:20.362272+00:00"
-    },
-    {
-      "id": 18545,
-      "kind": "DATA_ERROR",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "SOLUSD",
-      "time": "2026-10-30T03:25:20.656995+00:00"
-    },
-    {
-      "id": 18546,
-      "kind": "VALUATION_UNAVAILABLE",
-      "payload": {
-        "reason": "A held symbol lacks a fresh mark"
-      },
-      "symbol": "",
-      "time": "2026-10-30T03:25:20.657371+00:00"
-    },
-    {
       "id": 18547,
       "kind": "CYCLE_ERROR",
       "payload": {
@@ -285585,6 +285558,33 @@
       },
       "symbol": "",
       "time": "2026-10-30T11:25:19.944806+00:00"
+    },
+    {
+      "id": 18939,
+      "kind": "FUNDING_UNAVAILABLE",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-10-30T11:30:44.702147+00:00"
+    },
+    {
+      "id": 18940,
+      "kind": "FUNDING_UNAVAILABLE",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-30T11:30:46.150679+00:00"
+    },
+    {
+      "id": 18942,
+      "kind": "CYCLE_ERROR",
+      "payload": {
+        "error_type": "RuntimeError"
+      },
+      "symbol": "",
+      "time": "2026-10-30T11:30:46.341968+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -295980,7 +295980,7 @@
         "entry": 102.60947399999999,
         "entry_fee": 0.24523664286,
         "entry_time_ms": 1792800055152,
-        "opened_after": 1793358899999,
+        "opened_after": 1793359799999,
         "position_id": "0ea13a60f1df4f70a6d72e1050a0ae18",
         "quantity": "4.78",
         "risk": 25.170260851440048,
@@ -295993,7 +295993,7 @@
         "entry": 79704.056,
         "entry_fee": 0.3905498744,
         "entry_time_ms": 1792857652799,
-        "opened_after": 1793358899999,
+        "opened_after": 1793359799999,
         "position_id": "5b7da64fdebe49bc838cd4310884948c",
         "quantity": "0.0098",
         "risk": 25.09145069760003,
