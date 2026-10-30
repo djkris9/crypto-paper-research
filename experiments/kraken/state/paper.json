@@ -282791,49 +282791,6 @@
       "time": "2026-10-30T02:20:25.871400+00:00"
     },
     {
-      "id": 18776,
-      "kind": "FUNDING_UNAVAILABLE",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "BTCUSD",
-      "time": "2026-10-30T08:10:24.694051+00:00"
-    },
-    {
-      "id": 18777,
-      "kind": "FUNDING_UNAVAILABLE",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "SOLUSD",
-      "time": "2026-10-30T08:10:25.511636+00:00"
-    },
-    {
-      "id": 18778,
-      "kind": "DECISION",
-      "payload": {
-        "experiment": "kraken-slow-breakout-4h-v1",
-        "features": {
-          "atr": 1113.0881504580252,
-          "channel_high": 81900.0,
-          "channel_low": 76346.0,
-          "ema20": 79939.39115004358,
-          "ema50": 80574.7396075395,
-          "previous_channel_high": 81900.0,
-          "previous_channel_low": 77649.0,
-          "previous_price": 78069.0,
-          "price": 78044.0,
-          "rsi": 36.80677077505571,
-          "volume_ratio": 0.8644614019949762
-        },
-        "reason": "already holding symbol",
-        "side": "NO_TRADE",
-        "signal_close_ms": 1793347199999
-      },
-      "symbol": "BTCUSD",
-      "time": "2026-10-30T08:10:25.616756+00:00"
-    },
-    {
       "id": 18779,
       "kind": "DECISION",
       "payload": {
@@ -285633,6 +285590,33 @@
       },
       "symbol": "",
       "time": "2026-10-30T16:10:30.849232+00:00"
+    },
+    {
+      "id": 19173,
+      "kind": "FUNDING_UNAVAILABLE",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-10-30T16:15:30.267457+00:00"
+    },
+    {
+      "id": 19174,
+      "kind": "FUNDING_UNAVAILABLE",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-30T16:15:32.715886+00:00"
+    },
+    {
+      "id": 19176,
+      "kind": "CYCLE_ERROR",
+      "payload": {
+        "error_type": "RuntimeError"
+      },
+      "symbol": "",
+      "time": "2026-10-30T16:15:32.943092+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -296028,7 +296012,7 @@
         "entry": 102.60947399999999,
         "entry_fee": 0.24523664286,
         "entry_time_ms": 1792800055152,
-        "opened_after": 1793375999999,
+        "opened_after": 1793376899999,
         "position_id": "0ea13a60f1df4f70a6d72e1050a0ae18",
         "quantity": "4.78",
         "risk": 25.170260851440048,
@@ -296041,7 +296025,7 @@
         "entry": 79704.056,
         "entry_fee": 0.3905498744,
         "entry_time_ms": 1792857652799,
-        "opened_after": 1793375999999,
+        "opened_after": 1793376899999,
         "position_id": "5b7da64fdebe49bc838cd4310884948c",
         "quantity": "0.0098",
         "risk": 25.09145069760003,
