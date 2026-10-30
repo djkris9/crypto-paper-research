@@ -272711,33 +272711,6 @@
       "time": "2026-10-29T07:55:21.670921+00:00"
     },
     {
-      "id": 17875,
-      "kind": "VALUATION_UNAVAILABLE",
-      "payload": {
-        "reason": "A held symbol lacks a fresh mark"
-      },
-      "symbol": "",
-      "time": "2026-10-29T08:05:22.312987+00:00"
-    },
-    {
-      "id": 17876,
-      "kind": "CYCLE_ERROR",
-      "payload": {
-        "error_type": "RuntimeError"
-      },
-      "symbol": "",
-      "time": "2026-10-29T08:05:22.313239+00:00"
-    },
-    {
-      "id": 17877,
-      "kind": "DATA_ERROR",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "BTCUSD",
-      "time": "2026-10-29T08:10:26.564964+00:00"
-    },
-    {
       "id": 17878,
       "kind": "DATA_ERROR",
       "payload": {
@@ -285833,6 +285806,33 @@
       },
       "symbol": "",
       "time": "2026-10-30T10:20:27.060325+00:00"
+    },
+    {
+      "id": 18887,
+      "kind": "FUNDING_UNAVAILABLE",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-10-30T10:25:20.288070+00:00"
+    },
+    {
+      "id": 18888,
+      "kind": "FUNDING_UNAVAILABLE",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-10-30T10:25:21.596612+00:00"
+    },
+    {
+      "id": 18890,
+      "kind": "CYCLE_ERROR",
+      "payload": {
+        "error_type": "RuntimeError"
+      },
+      "symbol": "",
+      "time": "2026-10-30T10:25:21.761977+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
