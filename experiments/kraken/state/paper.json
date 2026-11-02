@@ -282791,49 +282791,6 @@
       "time": "2026-10-30T02:20:25.871400+00:00"
     },
     {
-      "id": 21737,
-      "kind": "FUNDING_UNAVAILABLE",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "BTCUSD",
-      "time": "2026-11-01T20:00:51.899318+00:00"
-    },
-    {
-      "id": 21738,
-      "kind": "FUNDING_UNAVAILABLE",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "SOLUSD",
-      "time": "2026-11-01T20:00:53.741003+00:00"
-    },
-    {
-      "id": 21739,
-      "kind": "DECISION",
-      "payload": {
-        "experiment": "kraken-slow-breakout-4h-v1",
-        "features": {
-          "atr": 719.8122005359677,
-          "channel_high": 81900.0,
-          "channel_low": 76184.0,
-          "ema20": 78095.25547615364,
-          "ema50": 79190.70619574926,
-          "previous_channel_high": 81900.0,
-          "previous_channel_low": 76184.0,
-          "previous_price": 77875.0,
-          "price": 77694.0,
-          "rsi": 41.62762735354656,
-          "volume_ratio": 0.6492916870683925
-        },
-        "reason": "already holding symbol",
-        "side": "NO_TRADE",
-        "signal_close_ms": 1793563199999
-      },
-      "symbol": "BTCUSD",
-      "time": "2026-11-01T20:00:53.905348+00:00"
-    },
-    {
       "id": 21740,
       "kind": "DECISION",
       "payload": {
@@ -285585,6 +285542,33 @@
       },
       "symbol": "",
       "time": "2026-11-02T03:50:26.443298+00:00"
+    },
+    {
+      "id": 22135,
+      "kind": "FUNDING_UNAVAILABLE",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-11-02T03:55:18.821538+00:00"
+    },
+    {
+      "id": 22136,
+      "kind": "FUNDING_UNAVAILABLE",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-11-02T03:55:19.627598+00:00"
+    },
+    {
+      "id": 22138,
+      "kind": "CYCLE_ERROR",
+      "payload": {
+        "error_type": "RuntimeError"
+      },
+      "symbol": "",
+      "time": "2026-11-02T03:55:19.733154+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
