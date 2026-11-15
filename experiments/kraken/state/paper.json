@@ -282791,51 +282791,6 @@
       "time": "2026-10-30T02:20:25.871400+00:00"
     },
     {
-      "id": 27065,
-      "kind": "FUNDING_UNAVAILABLE",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "BTCUSD",
-      "time": "2026-11-06T09:15:30.638695+00:00"
-    },
-    {
-      "id": 27066,
-      "kind": "FUNDING_UNAVAILABLE",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "SOLUSD",
-      "time": "2026-11-06T09:15:32.077587+00:00"
-    },
-    {
-      "id": 27068,
-      "kind": "CYCLE_ERROR",
-      "payload": {
-        "error_type": "RuntimeError"
-      },
-      "symbol": "",
-      "time": "2026-11-06T09:15:32.241357+00:00"
-    },
-    {
-      "id": 27069,
-      "kind": "FUNDING_UNAVAILABLE",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "BTCUSD",
-      "time": "2026-11-06T09:20:27.912244+00:00"
-    },
-    {
-      "id": 27070,
-      "kind": "FUNDING_UNAVAILABLE",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "SOLUSD",
-      "time": "2026-11-06T09:20:29.412645+00:00"
-    },
-    {
       "id": 27072,
       "kind": "CYCLE_ERROR",
       "payload": {
@@ -287203,6 +287158,99 @@
       },
       "symbol": "",
       "time": "2026-11-14T23:39:15.851866+00:00"
+    },
+    {
+      "id": 27435,
+      "kind": "FUNDING_UNAVAILABLE",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "",
+      "time": "2026-11-15T03:03:41.708091+00:00"
+    },
+    {
+      "id": 27436,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 1347.165151032167,
+          "channel_high": 74730.0,
+          "channel_low": 64956.0,
+          "ema20": 68896.83438273933,
+          "ema50": 71977.32443670681,
+          "previous_channel_high": 74730.0,
+          "previous_channel_low": 65001.0,
+          "previous_price": 65691.0,
+          "price": 64111.0,
+          "rsi": 16.074913542339402,
+          "volume_ratio": 2.8621870622728274
+        },
+        "reason": "setup older than five minutes; wait for next close",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1794700799999
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-11-15T03:03:42.617134+00:00"
+    },
+    {
+      "id": 27437,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 49.97124991551386,
+          "channel_high": 2101.9,
+          "channel_low": 1807.1,
+          "ema20": 1936.1904791717332,
+          "ema50": 2045.2696355485682,
+          "previous_channel_high": 2101.9,
+          "previous_channel_low": 1822.8,
+          "previous_price": 1833.4,
+          "price": 1767.3,
+          "rsi": 19.895016987804766,
+          "volume_ratio": 2.1080225979150065
+        },
+        "reason": "setup older than five minutes; wait for next close",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1794700799999
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-11-15T03:03:42.617291+00:00"
+    },
+    {
+      "id": 27438,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 2.1695890787400485,
+          "channel_high": 85.79,
+          "channel_low": 71.63,
+          "ema20": 78.05990403059147,
+          "ema50": 82.90809585442456,
+          "previous_channel_high": 85.79,
+          "previous_channel_low": 73.12,
+          "previous_price": 72.19,
+          "price": 70.23,
+          "rsi": 18.895583746423412,
+          "volume_ratio": 3.331133455828917
+        },
+        "reason": "setup older than five minutes; wait for next close",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1794700799999
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-11-15T03:03:42.617413+00:00"
+    },
+    {
+      "id": 27440,
+      "kind": "CYCLE_ERROR",
+      "payload": {
+        "error_type": "RuntimeError"
+      },
+      "symbol": "",
+      "time": "2026-11-15T03:03:42.617624+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -297600,11 +297648,12 @@
     "daily_equity:2026-11-12": 10229.186342249732,
     "daily_equity:2026-11-13": 10240.870212065807,
     "daily_equity:2026-11-14": 10240.870212065807,
+    "daily_equity:2026-11-15": 10240.870212065807,
     "equity_peak": 10240.870212065807,
     "experiment": "kraken-slow-breakout-4h-v1",
-    "last_slow_bar:BTCUSD": 1794686399999,
-    "last_slow_bar:ETHUSD": 1794686399999,
-    "last_slow_bar:SOLUSD": 1794686399999,
+    "last_slow_bar:BTCUSD": 1794700799999,
+    "last_slow_bar:ETHUSD": 1794700799999,
+    "last_slow_bar:SOLUSD": 1794700799999,
     "mode": "paper",
     "paper_cash": 10240.870212065807,
     "paper_funding_pending": [
