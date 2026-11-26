@@ -282808,83 +282808,6 @@
       "time": "2026-11-08T23:02:06.847749+00:00"
     },
     {
-      "id": 27292,
-      "kind": "DECISION",
-      "payload": {
-        "experiment": "kraken-slow-breakout-4h-v1",
-        "features": {
-          "atr": 41.473651537171456,
-          "channel_high": 2258.8,
-          "channel_low": 2002.9,
-          "ema20": 2215.799449377565,
-          "ema50": 2255.5852050119756,
-          "previous_channel_high": 2284.2,
-          "previous_channel_low": 2002.9,
-          "previous_price": 2137.7,
-          "price": 2090.8,
-          "rsi": 22.760378851739674,
-          "volume_ratio": 1.9825814298752014
-        },
-        "reason": "setup older than five minutes; wait for next close",
-        "side": "NO_TRADE",
-        "signal_close_ms": 1794211199999
-      },
-      "symbol": "ETHUSD",
-      "time": "2026-11-09T10:12:39.452615+00:00"
-    },
-    {
-      "id": 27293,
-      "kind": "DECISION",
-      "payload": {
-        "experiment": "kraken-slow-breakout-4h-v1",
-        "features": {
-          "atr": 1.6820061859526265,
-          "channel_high": 91.49,
-          "channel_low": 84.92,
-          "ema20": 89.32230158605357,
-          "ema50": 91.84572326891606,
-          "previous_channel_high": 91.55,
-          "previous_channel_low": 84.92,
-          "previous_price": 87.39,
-          "price": 85.5,
-          "rsi": 28.29440330549727,
-          "volume_ratio": 1.232425965174894
-        },
-        "reason": "setup older than five minutes; wait for next close",
-        "side": "NO_TRADE",
-        "signal_close_ms": 1794211199999
-      },
-      "symbol": "SOLUSD",
-      "time": "2026-11-09T10:12:39.452978+00:00"
-    },
-    {
-      "id": 27295,
-      "kind": "CYCLE_ERROR",
-      "payload": {
-        "error_type": "RuntimeError"
-      },
-      "symbol": "",
-      "time": "2026-11-09T10:12:39.453468+00:00"
-    },
-    {
-      "id": 27296,
-      "kind": "FUNDING_UNAVAILABLE",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "",
-      "time": "2026-11-09T20:43:28.730865+00:00"
-    },
-    {
-      "id": 27297,
-      "kind": "FUNDING_UNAVAILABLE",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "BTCUSD",
-      "time": "2026-11-09T20:43:29.368486+00:00"
-    },
-    {
       "id": 27298,
       "kind": "DECISION",
       "payload": {
@@ -288291,6 +288214,99 @@
       },
       "symbol": "",
       "time": "2026-11-25T19:59:15.988215+00:00"
+    },
+    {
+      "id": 27651,
+      "kind": "FUNDING_UNAVAILABLE",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "",
+      "time": "2026-11-26T02:41:01.588481+00:00"
+    },
+    {
+      "id": 27652,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 1302.139012115306,
+          "channel_high": 64532.0,
+          "channel_low": 57216.0,
+          "ema20": 59954.91529085505,
+          "ema50": 61494.12089950036,
+          "previous_channel_high": 64532.0,
+          "previous_channel_low": 57216.0,
+          "previous_price": 59818.0,
+          "price": 60387.0,
+          "rsi": 51.11414917909576,
+          "volume_ratio": 0.7773168850721497
+        },
+        "reason": "setup older than five minutes; wait for next close",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1795651199999
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-11-26T02:41:03.750766+00:00"
+    },
+    {
+      "id": 27653,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 40.563653045302225,
+          "channel_high": 1844.2,
+          "channel_low": 1606.5,
+          "ema20": 1683.407429850954,
+          "ema50": 1728.6799136603533,
+          "previous_channel_high": 1844.2,
+          "previous_channel_low": 1606.5,
+          "previous_price": 1682.6,
+          "price": 1690.5,
+          "rsi": 49.83693174519422,
+          "volume_ratio": 0.4107168859514409
+        },
+        "reason": "setup older than five minutes; wait for next close",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1795651199999
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-11-26T02:41:03.750940+00:00"
+    },
+    {
+      "id": 27654,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 1.9176912166915627,
+          "channel_high": 78.41,
+          "channel_low": 65.76,
+          "ema20": 69.98192907101694,
+          "ema50": 71.52259265908882,
+          "previous_channel_high": 78.41,
+          "previous_channel_low": 65.76,
+          "previous_price": 70.29,
+          "price": 70.41,
+          "rsi": 50.615537422929606,
+          "volume_ratio": 0.8321781212215081
+        },
+        "reason": "setup older than five minutes; wait for next close",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1795651199999
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-11-26T02:41:03.751078+00:00"
+    },
+    {
+      "id": 27656,
+      "kind": "CYCLE_ERROR",
+      "payload": {
+        "error_type": "RuntimeError"
+      },
+      "symbol": "",
+      "time": "2026-11-26T02:41:03.751283+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -298699,11 +298715,12 @@
     "daily_equity:2026-11-23": 10240.870212065807,
     "daily_equity:2026-11-24": 10240.870212065807,
     "daily_equity:2026-11-25": 10240.870212065807,
+    "daily_equity:2026-11-26": 10240.870212065807,
     "equity_peak": 10240.870212065807,
     "experiment": "kraken-slow-breakout-4h-v1",
-    "last_slow_bar:BTCUSD": 1795622399999,
-    "last_slow_bar:ETHUSD": 1795622399999,
-    "last_slow_bar:SOLUSD": 1795622399999,
+    "last_slow_bar:BTCUSD": 1795651199999,
+    "last_slow_bar:ETHUSD": 1795651199999,
+    "last_slow_bar:SOLUSD": 1795651199999,
     "mode": "paper",
     "paper_cash": 10240.870212065807,
     "paper_funding_pending": [
