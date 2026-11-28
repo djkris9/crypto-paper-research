@@ -282808,83 +282808,6 @@
       "time": "2026-11-08T23:02:06.847749+00:00"
     },
     {
-      "id": 27327,
-      "kind": "DECISION",
-      "payload": {
-        "experiment": "kraken-slow-breakout-4h-v1",
-        "features": {
-          "atr": 41.047968192656946,
-          "channel_high": 2248.9,
-          "channel_low": 2002.7,
-          "ema20": 2141.7080866294955,
-          "ema50": 2207.3917872762436,
-          "previous_channel_high": 2248.9,
-          "previous_channel_low": 2002.9,
-          "previous_price": 2021.2,
-          "price": 2042.1,
-          "rsi": 28.982979784174404,
-          "volume_ratio": 1.9094651024368832
-        },
-        "reason": "setup older than five minutes; wait for next close",
-        "side": "NO_TRADE",
-        "signal_close_ms": 1794340799999
-      },
-      "symbol": "ETHUSD",
-      "time": "2026-11-10T23:23:28.667339+00:00"
-    },
-    {
-      "id": 27328,
-      "kind": "DECISION",
-      "payload": {
-        "experiment": "kraken-slow-breakout-4h-v1",
-        "features": {
-          "atr": 1.774420653463926,
-          "channel_high": 90.3,
-          "channel_low": 81.15,
-          "ema20": 86.75313747952696,
-          "ema50": 89.84447871715214,
-          "previous_channel_high": 90.3,
-          "previous_channel_low": 84.12,
-          "previous_price": 82.21,
-          "price": 82.86,
-          "rsi": 30.531299615522357,
-          "volume_ratio": 2.045235593740586
-        },
-        "reason": "setup older than five minutes; wait for next close",
-        "side": "NO_TRADE",
-        "signal_close_ms": 1794340799999
-      },
-      "symbol": "SOLUSD",
-      "time": "2026-11-10T23:23:28.677707+00:00"
-    },
-    {
-      "id": 27330,
-      "kind": "CYCLE_ERROR",
-      "payload": {
-        "error_type": "RuntimeError"
-      },
-      "symbol": "",
-      "time": "2026-11-10T23:23:28.678252+00:00"
-    },
-    {
-      "id": 27331,
-      "kind": "FUNDING_UNAVAILABLE",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "",
-      "time": "2026-11-11T02:52:12.799270+00:00"
-    },
-    {
-      "id": 27332,
-      "kind": "FUNDING_UNAVAILABLE",
-      "payload": {
-        "error_type": "ValueError"
-      },
-      "symbol": "BTCUSD",
-      "time": "2026-11-11T02:52:13.520895+00:00"
-    },
-    {
       "id": 27333,
       "kind": "DECISION",
       "payload": {
@@ -288339,6 +288262,99 @@
       },
       "symbol": "",
       "time": "2026-11-27T20:21:10.750203+00:00"
+    },
+    {
+      "id": 27687,
+      "kind": "FUNDING_UNAVAILABLE",
+      "payload": {
+        "error_type": "ValueError"
+      },
+      "symbol": "",
+      "time": "2026-11-28T02:47:34.775539+00:00"
+    },
+    {
+      "id": 27688,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 1146.8523641511697,
+          "channel_high": 62145.0,
+          "channel_low": 57216.0,
+          "ema20": 60397.57781048975,
+          "ema50": 61163.85873778446,
+          "previous_channel_high": 62145.0,
+          "previous_channel_low": 57216.0,
+          "previous_price": 59852.0,
+          "price": 59870.0,
+          "rsi": 44.845493268958435,
+          "volume_ratio": 0.534044759238468
+        },
+        "reason": "setup older than five minutes; wait for next close",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1795823999999
+      },
+      "symbol": "BTCUSD",
+      "time": "2026-11-28T02:47:36.132254+00:00"
+    },
+    {
+      "id": 27689,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 38.28853497716029,
+          "channel_high": 1752.9,
+          "channel_low": 1606.5,
+          "ema20": 1689.94442563187,
+          "ema50": 1715.6370372013494,
+          "previous_channel_high": 1752.9,
+          "previous_channel_low": 1606.5,
+          "previous_price": 1669.3,
+          "price": 1660.7,
+          "rsi": 42.274834046922614,
+          "volume_ratio": 0.9553631306121105
+        },
+        "reason": "setup older than five minutes; wait for next close",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1795823999999
+      },
+      "symbol": "ETHUSD",
+      "time": "2026-11-28T02:47:36.132507+00:00"
+    },
+    {
+      "id": 27690,
+      "kind": "DECISION",
+      "payload": {
+        "experiment": "kraken-slow-breakout-4h-v1",
+        "features": {
+          "atr": 1.645092175607415,
+          "channel_high": 73.85,
+          "channel_low": 65.76,
+          "ema20": 71.30316489033555,
+          "ema50": 71.6203978797957,
+          "previous_channel_high": 73.85,
+          "previous_channel_low": 65.76,
+          "previous_price": 72.01,
+          "price": 71.62,
+          "rsi": 52.60879227260955,
+          "volume_ratio": 0.43174616820572753
+        },
+        "reason": "setup older than five minutes; wait for next close",
+        "side": "NO_TRADE",
+        "signal_close_ms": 1795823999999
+      },
+      "symbol": "SOLUSD",
+      "time": "2026-11-28T02:47:36.132719+00:00"
+    },
+    {
+      "id": 27692,
+      "kind": "CYCLE_ERROR",
+      "payload": {
+        "error_type": "RuntimeError"
+      },
+      "symbol": "",
+      "time": "2026-11-28T02:47:36.133011+00:00"
     }
   ],
   "experiment": "kraken-slow-breakout-4h-v1",
@@ -298749,11 +298765,12 @@
     "daily_equity:2026-11-25": 10240.870212065807,
     "daily_equity:2026-11-26": 10240.870212065807,
     "daily_equity:2026-11-27": 10240.870212065807,
+    "daily_equity:2026-11-28": 10240.870212065807,
     "equity_peak": 10240.870212065807,
     "experiment": "kraken-slow-breakout-4h-v1",
-    "last_slow_bar:BTCUSD": 1795809599999,
-    "last_slow_bar:ETHUSD": 1795809599999,
-    "last_slow_bar:SOLUSD": 1795809599999,
+    "last_slow_bar:BTCUSD": 1795823999999,
+    "last_slow_bar:ETHUSD": 1795823999999,
+    "last_slow_bar:SOLUSD": 1795823999999,
     "mode": "paper",
     "paper_cash": 10240.870212065807,
     "paper_funding_pending": [
